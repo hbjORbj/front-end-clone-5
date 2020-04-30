@@ -1,7 +1,11 @@
 {
-  "name": "schwartz-media",
+  "name": "front-end-clone-5",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbjORbj/front-end-clone-5.git"
+  },
   "author": "Benny Joo",
   "license": "MIT",
   "dependencies": {
@@ -12,11 +16,15 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-csso": "^3.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-image": "^6.1.0",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.12.0"
   },
   "scripts": {
-    "dev": "gulp dev"
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
   },
   "browserslist": {
     "browsers": [
